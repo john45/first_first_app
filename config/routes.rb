@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root 'pages#main'
+  get 'pages', to: 'pages#main'
 end
